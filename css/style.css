@@ -1,0 +1,145 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Akaya Telivigala';
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h4, h5, h6 {
+  font-weight: 700;
+}
+
+.heading-line {
+  height: 3px;
+  width: 10%;
+  background: #83F3ED;
+}
+
+.btn-outline-secondary {
+  background-color: transparent !important;
+  border-color: #011627 !important;
+  color: #011627 !important;
+  position: relative;
+}
+
+.btn-outline-secondary::before {
+  content: '';
+  position: absolute;
+  background-color: #83F3ED;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-outline-secondary:hover::before {
+  width: 100%;
+}
+
+.btn-secondary {
+  background-color: #011627 !important;
+  border-radius: 0;
+  border-color: #011627 !important;
+}
+
+.btn-secondary:hover {
+  color: #83F3ED;
+}
+
+.btn-primary {
+  background: #83F3ED !important;
+  border-radius: 0;
+  border-color: #83F3ED !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background: #011627 !important;
+  color: #fff !important;
+}
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar .nav-link, .navbar .nav-brand {
+  color: #011627;
+}
+
+.navbar .nav-link:hover, .navbar .nav-brand:hover {
+  color: #777;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+}
+
+.call-to-action {
+  background: #011627;
+  color: #fafafa;
+}
+
+.services i {
+  font-size: 3rem;
+  color: #29b1d6;
+}
+
+.dark {
+  color: #83F3ED;
+  background: #011627;
+}
+
+.dark i {
+  font-size: 1.3rem;
+  color: #83F3ED;
+}
+
+.portfolio .img-fluid {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio .col-lg-3 {
+  position: relative;
+}
+
+.filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #83F3ED;
+  opacity: 0.8;
+}
+
+.footer {
+  background: #011627;
+  color: #fafaff;
+}
+
+.footer a {
+  color: #fafaff;
+}
+
+.btn-info {
+  color: #011627;
+  background-color: #83F3ED;
+  border-radius: none;
+}
+
+.btn-info:hover {
+  background-color: #011627;
+  border: 1px solid #83F3ED !important;
+}
+/*# sourceMappingURL=style.css.map */
